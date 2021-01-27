@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script>
+    $(function() {
+        $.stellar({
+             horizontalScrolling: false,
+            responsive: true
+        });
+    })
+    </script>
+</head>
+
+<body>
+    <!-- 导航栏部分 -->
+    <div id="topbar" class="topbar">
+        <div class="toppic">
+            <div class="topside">
+                <a href="#" class="logoLink">im.qq.com</a>
+                <ul id="topNav" class="topNav">
+                    <li class="current"><a href="#">首页</a></li>
+                    <li><a href="#">下载</a></li>
+                    <li><a href="#">动态</a></li>
+                </ul>
+            </div>
+            <div class="topTool">
+                <a class="barzc" href="#" target="_blank">注册</a>
+                <ul>
+                    <li id="loginInfo">
+                        <a id="login" href="#">登录</a>
+                        <div id="loginPenel" class="loginPenel">
+                            <span class="trg"></span>
+                            <div class="logindrop">
+                                <div id="nick" class="nick">Hi,飞翔的企鹅</div>
+                                <div class="lgout"><a id="lgout" href="javascript:;">[退出]</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#" target="_blank">QQ安全</a></li>
+                    <li><a href="#" target="_blank">QQ会员</a></li>
+                </ul>
+                <div class="flashData"><a id="viewOnline" href="#">当前在线人数：<em id="cur_online">227,763,015</em></a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 中间部分 -->
+
+    <!--S banner-->
+    <div class="crossbanenr wrap">
+        <ul id="crossbanenr">
+            <li class="timbg">
+                <div class="tim-content tim">
+                    <div class="bnleft">
+                        <div class="tim-wenzi"></div>
+                        <div class="tim-btn">
+                            <a href="#" target="_blank"></a>
+                        </div>
+                        <div class="tim-icon"></div>
+                    </div>
+                    <img src="images/doc-j2.png" class="tim-img">
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <!-- 页面主题部分 -->
+
+    <div class="content">
+        <h1>I'm QQ - 每一天，乐在沟通</h1>
+        <div id="fisrtbg" class="activebg fisrtbg" data-stellar-background-ratio="0.05"></div>
+        <div class="qfigure qcall">
+            <div class="qw960">
+                <div class="txtwrap">
+                    <h2>沟通，是跨越千山万水的亲切声音</h2>
+                    <p>无论何时何地，你都能自由享受QQ在各类终端<br />上带来的高清通话，与好友一起想聊多久聊多久</p>
+                    <p><a class="knmore" href="#" target="_blank">了解更多 &gt;</a></p>
+                    <ul class="figs">
+                        <li class="f01">屏幕分享</li>
+                        <li class="f02">群组通话</li>
+                        <li class="f03">两人、多人通话</li>
+                    </ul>
+                </div>
+                <div class="qcallAnimate">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="secondbg" class="activebg secondbg" data-stellar-background-ratio="0.05"></div>
+    <div class="qfigure qfile">
+        <div class="qw960">
+            <div class="txtwrap">
+                <h2>沟通，是随时随地爽快收发</h2>
+                <p>通过QQ,电脑和手机上的文件都能收发自如，<br />更有手机在线查阅，轻松你的工作和生活。</p>
+                <p><a class="knmore" href="#" target="_blank">了解更多 &gt;</a></p>
+                <ul class="figs">
+                    <li class="f01">文件漫游</li>
+                    <li class="f02">多端互传</li>
+                    <li class="f03">在线预览</li>
+                </ul>
+            </div>
+            <div class="qfileAnimate">
+            </div>
+        </div>
+    </div>
+    <div id="thirdbg" class="activebg thirdbg" data-stellar-background-ratio="0.05"></div>
+    <div class="qfigure qblog">
+        <div class="qw960">
+            <div class="txtwrap">
+                <h2>沟通，是志同道合的他们放肆青春</h2>
+                <p>即使世界很大，你也不会孤单，在兴趣部落<br />有和你一样的人，期待着和你一起发现精彩</p>
+                <p><a class="knmore" href="#" target="_blank">了解更多 &gt;</a></p>
+                <ul class="figs">
+                    <li class="f01">精彩图集</li>
+                    <li class="f02">附近热点</li>
+                    <li class="f03">兴趣社区</li>
+                </ul>
+            </div>
+            <div class="qblogAnimate">
+                <div class="qblogWrap">
+                    <div class="pic1"></div>
+                    <div class="pic2"></div>
+                    <div class="pic3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 页面底部制作 -->
+
+    <!--S footer-->
+    <div class="newfoot">
+        <div class="qmaps">
+            <div class="plats">
+                <h3>了解热门产品</h3>
+                <a class="plmb" href="#" target="_blank">QQ 手机版</a>
+                <a class="plpc" href="#" target="_blank">QQ PC版</a>
+                <a class="plmac" href="#" target="_blank">QQ Mac版</a>
+                <a class="plpad" href="#" target="_blank">QQ Pad版</a>
+            </div>
+
+            <div class="map qac">
+                <h3>QQ安全</h3>
+                <ul>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+
+                </ul>
+            </div>
+
+            <div class="map qfaq">
+                <h3>帮助反馈</h3>
+                <ul>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+
+                </ul>
+            </div>
+
+            <div class="map qlink">
+                <h3>友情链接</h3>
+                <ul>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+                    <li><a href="#" target="_blank">安全中心</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 1998-
+                <script>
+                    document.write((new Date()).getFullYear());
+                </script> Tencent. All Rights Reserved.</p>
+            <p>腾讯公司 版权所有</p>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div id="flashDiv">
+        <div class="flashBar"><a id="flashClose" href="#" class="close">关闭</a></div>
+        <div class="flashBox">
+            <div id="flashBox">
+                <p>
+                    <a href="#"><img src="images/get_flash_player.gif" alt="Get Adobe Flash player" /></a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
